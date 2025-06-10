@@ -1,1 +1,36 @@
 /* место для вашего кода */
+.header{
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px;
+    font-size: 18px;
+}
+
+.header__logo{
+    display: block;
+}
+.header__logo__image{
+    display: block;
+    width: 130px;
+    height: 105px;
+}
+
+.header__menu__list{
+    list-style: circle;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.header__menu__item__active{
+    list-style: none;
+}
+
+.address{
+    max-width: 240px;
+    justify-self: end;
+}
+.header__address__list{
+    list-style: none;
+}
+
