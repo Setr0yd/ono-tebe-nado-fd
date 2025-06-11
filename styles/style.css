@@ -12,7 +12,7 @@
 }
 .header__logo__image{
     display: block;
-    width: 130px;
+    width: 135px;
     height: 105px;
 }
 
@@ -34,3 +34,53 @@
     list-style: none;
 }
 
+
+.overlay{
+    position: relative;
+    background-size: cover;
+    /*background-color: rgb(0 0 0/ .6);*/
+}
+.img-cover{
+    background-image: url(../images/cover.jpg);
+    padding: 0 50px 50px;
+    padding-top: 165px;
+}
+.cover__title{
+    font-size: 100px;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 30px;
+    line-height: 1.31;
+    text-transform: uppercase;
+}
+.aligned-span{
+    display: block;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+.no-letter-spacing{
+    letter-spacing: 0;
+}
+.cover__description{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 106px;
+}
+.cover__description-text{
+    word-spacing: 19px;
+}
+.bet-button{
+    color: white;
+    text-transform: uppercase;
+    background: transparent;
+    border-color: white;
+    padding: 12px 30px;
+}
