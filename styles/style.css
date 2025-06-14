@@ -1,4 +1,4 @@
-/* место для вашего кода */
+
 .header{
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
@@ -128,7 +128,6 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 48px 40px;
-    
 }
 .card__title{
     position: relative;
