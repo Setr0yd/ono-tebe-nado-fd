@@ -189,7 +189,6 @@
     margin-top: 35px;
     padding-top: 64px;
 }
-
 .about__logo-image{
     display: flex;
     width: 147px;
@@ -231,7 +230,6 @@
     align-items: center;
     list-style: none;
     font-size: 18px;
-    
 }
 .footer__social-list{
     display: flex;
@@ -239,7 +237,6 @@
     gap: 48px;
     justify-content: end;
 }
-
 .footer__social-icon{
     width: 48px;
     
