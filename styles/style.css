@@ -219,7 +219,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     margin-top: 180px;
-    padding: 0 50px;
+    padding: 0 50px 80px;
     width: 100%;
 }
 .justify-self{
