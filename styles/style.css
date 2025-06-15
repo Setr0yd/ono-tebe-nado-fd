@@ -19,17 +19,16 @@
   flex-direction: row;
   gap: 32px;
   border-width: 1px;
-  list-style: circle;
   text-underline-offset: 4px;
+  list-style: circle;
 }
 .header__menu__item__active {
-  list-style: none;
   text-decoration: none;
+  list-style: none;
 }
 .address {
   justify-self: end;
   max-width: 240px;
-  margin-right: 37px;
   border-width: 1px;
   font-size: 18px;
   font-style: normal;
@@ -111,9 +110,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  gap: 25px;
   max-width: 1052px;
   list-style: none;
-  gap: 25px;
 }
 .lots__card-list-item {
   width: 334px;
@@ -121,6 +120,8 @@
 }
 .card-link {
   height: 100%;
+  list-style: none;
+  text-decoration: none;
 }
 .card {
   position: relative;
@@ -149,6 +150,7 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 1.2;
+
 }
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
