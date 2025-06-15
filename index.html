@@ -14,7 +14,7 @@
       <nav class="header__menu">
         <ul class="header__menu__list">
           <li class="header__menu__item header__menu__item__active">
-            <a class="header__menu__link">главная</a>
+            <a class="header__menu__item__active" href="#0">главная</a>
           </li>
           <li class="header__menu__item">
             <a class="header__menu__link" href="#0">посмотреть лоты</a>
@@ -32,20 +32,14 @@
         />
       </a>
       <address class="address">
-        <ul class="header__address__list">
-          <li>
-            <a href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li>
-            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li>
-            <p class="header__menu__paragraph">
-              наб. Принсенграхт 263-<br />
-              265, Амстердам
-            </p>
-          </li>
-        </ul>
+        <div class="header__address">
+          <a href="tel:+99995555555">+9 999 555 5555</a>
+          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+          <p class="address-text">
+            наб. Принсенграхт 263-<br />
+            265, Амстердам
+          </p>
+        </div>
       </address>
     </header>
     <main>
@@ -64,14 +58,14 @@
           <p class="cover__description-text">
             аукцион вещей, в которые никто не верил
           </p>
-          <button class="bet-button">сделать ставку</button>
+          <button class="bet-button" type="button">сделать ставку</button>
         </div>
       </section>
       <section class="lots">
         <h2 class="lots__heading">Лоты</h2>
         <ul class="lots__card-list">
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -86,7 +80,7 @@
             </a>
           </li>
           <li class="lots__card-list-item">
-            <a class="card-link">
+            <a class="card-link" href="#0">
               <article class="card card_type_book">
                 <div class="overlay"></div>
                 <h3 class="card__title">
@@ -104,8 +98,8 @@
             </a>
           </li>
           <li class="lots__card-list-item card_type_picture">
-            <a class="card-link">
-              <article class="card">
+            <a class="card-link" href="#0">
+              <article class="card card_type_picture">
                 <div class="overlay"></div>
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
@@ -155,24 +149,18 @@
     </main>
     <footer class="footer">
       <address class="address justify-self">
-        <ul class="header__address__list">
-          <li>
+        <div class="footer__address">
             <a href="tel:+99995555555">+9 999 555 5555</a>
-          </li>
-          <li>
             <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          </li>
-          <li>
-            <p class="header__menu__paragraph">
-              наб. Принсенграхт 263-265, Амстердам
-            </p>
-          </li>
-        </ul>
+            <p class="address-text">наб. Принсенграхт 263-265, Амстердам</p>
+        </div>
       </address>
       <nav class="footer__menu">
         <ul class="footer__menu-list">
-          <li class="footer__menu-list-item footer__menu-link_active">
-            <a class="footer__menu-link">главная</a>
+          <li class="footer__menu-list-item">
+            <a class="footer__menu-link footer__menu-link_active" href="#0"
+              >главная</a
+            >
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link" href="#0">посмотреть лоты</a>
@@ -184,7 +172,7 @@
       </nav>
       <ul class="footer__social-list">
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#0">
             <img
               class="footer__social-icon"
               src="./images/yt.svg"
@@ -193,7 +181,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#0">
             <img
               class="footer__social-icon"
               src="./images/vk.svg"
@@ -202,7 +190,7 @@
           </a>
         </li>
         <li class="footer__social-list-item">
-          <a class="footer__social-link">
+          <a class="footer__social-link" href="#0">
             <img
               class="footer__social-icon"
               src="./images/pinterest.svg"
