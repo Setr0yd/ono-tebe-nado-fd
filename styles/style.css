@@ -22,7 +22,7 @@
   text-underline-offset: 4px;
   list-style: circle;
 }
-.header__menu__item__active, .header__menu__link_active{
+.header__menu__item__active, .header__menu__link_active {
   text-decoration: none;
   list-style: none;
 }
